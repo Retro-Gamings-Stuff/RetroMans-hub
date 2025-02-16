@@ -1,0 +1,381 @@
+.text
+{
+    position: fixed;
+    bottom: 1000px;
+    right: 900px;
+    z-index: -2;
+    animation-name: slideup;
+    animation-duration: 1s;
+    font-size: 25px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.title
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 30px;
+    left: 880px;
+    z-index: 0;
+}
+
+.top_bar
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.youtube_channel_button
+{
+    position: fixed;
+    bottom: 700px;
+    right: 1070px;
+    z-index: -2;
+    animation-name: slideinleft;
+    animation-duration: 1s;
+}
+
+
+.scratch_account_button
+{
+    position: fixed;
+    bottom: 500px;
+    right: 1070px;
+    z-index: -2;
+    animation-name: slideinright;
+    animation-duration: 1s;
+}
+
+.picsart_account_button
+{
+    position: fixed;
+    bottom: 300px;
+    right: 1070px;
+    z-index: -2;
+    animation-name: slideinleft;
+    animation-duration: 1s;
+}
+
+@keyframes slideinleft {
+    from {
+        transform: translateX(-600px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideinright {
+    from {
+        transform: translateX(600px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(1000px)
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.more_text
+{
+    position: fixed;
+    bottom: 1000px;
+    right: 750px;
+    z-index: -2;
+    animation-name: slideup;
+    animation-duration: 1s;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+@keyframes slideinlefthomebutton {
+    from {
+        transform: translateX(-300px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.home_button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    z-index: 0;
+    animation-name: slideinlefthomebutton;
+    animation-duration: 1s;
+    transition: transform 0.3s;
+}
+
+.about_button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 20px;
+    left: 200px;
+    z-index: 0;
+    animation-name: slideinleftaboutbutton;
+    animation-duration: 1s;
+    transition: transform 0.3s;
+}
+
+@keyframes slideinleftaboutbutton {
+    from {
+        transform: translateX(-600px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.whats_happening_button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 20px;
+    left: 380px;
+    z-index: 0;
+    animation-name: slideinleftwhatshappeningbutton;
+    animation-duration: 1s;
+    transition: transform 0.3s;
+}
+
+@keyframes slideinleftwhatshappeningbutton {
+    from {
+        transform: translateX(-900px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.whats_happening_button:hover
+{
+    transform: translateY(-5px);
+}
+
+.about_button:hover
+{
+    transform: translateY(-5px);
+}
+
+.home_button:hover
+{
+    transform: translateY(-5px);
+}
+
+.retroman-004_talking
+{
+    position: fixed;
+    bottom: 0px;
+    right: 1500px;
+    z-index: -2;
+    animation-name: slideingretroman-004;
+    animation-duration: 2s;
+}
+
+@keyframes slideingretroman-004 {
+    from {
+        transform: translateX(-2000px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.error404
+{
+    position: fixed;
+    bottom: 500px;
+    right: 1030px;
+    z-index: -2;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 150px;
+}
+
+.retoman-004_error404
+{
+    position: fixed;
+    bottom: 0px;
+    right: 1500px;
+    z-index: -2;
+    animation-name: no_animation_yet;
+    animation-duration: 1s;
+}
+
+.retroman-004_waving
+{
+    position: fixed;
+    bottom: 0px;
+    right: 1850px;
+    z-index: -2;
+    animation-name: slideingretroman-004waving;
+    animation-duration: 2s;
+}
+
+@keyframes slideingretroman-004waving {
+    from {
+        transform: translateX(-2000px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.spongebob
+{
+    position: fixed;
+    bottom: 360px;
+    right: 890px;
+    z-index: -2;
+}
+
+.error404_2
+{
+    position: fixed;
+    bottom: 600px;
+    right: 1095px;
+    z-index: -2;
+    font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.error404_dead_file
+{
+    position: fixed;
+    bottom: 200px;
+    right: 1160px;
+    z-index: -2;
+}
+
+.error404_return_home_button
+{
+    position: fixed;
+    bottom: 10px;
+    right: 1115px;
+    z-index: -2;
+    transition: transform 0.3s;
+}
+
+.error404_return_home_button:hover
+{
+    transform: translateY(-5px);
+}
+
+.retroman-004_banner
+{
+    position: fixed;
+    bottom: 900px;
+    right: 900px;
+    z-index: -2;
+}
+
+.the_shadow_addon_thumbnail
+{
+    position: fixed;
+    bottom: 600px;
+    right: 1200px;
+    z-index: -2;
+}
+
+.more_more_text
+{
+    position: fixed;
+    bottom: 685px;
+    right: 1550px;
+    z-index: -2;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    animation-name: slideingtext;
+    animation-duration: 1.5s;
+}
+
+.download_button
+{
+    position: fixed;
+    bottom: 550px;
+    right: 1200px;
+    z-index: -2;
+}
+
+.more_more_more_text
+{
+    position: fixed;
+    bottom: 605px;
+    right: 1510px;
+    z-index: -2;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    animation-name: slideingtext;
+    animation-duration: 2s;
+}
+
+.more_more_more_more_text
+{
+    position: fixed;
+    bottom: 525px;
+    right: 1680px;
+    z-index: -2;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    animation-name: slideingtext;
+    animation-duration: 2.5s;
+}
+
+@keyframes slideingtext {
+    from {
+        transform: translateX(-2000px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
